@@ -1,11 +1,17 @@
 :root {
   --primary-color-1: #111111;
   --primary-color-2: #222222;
+  --primary-color-3: #333333;
+
   --secondary-color-1: #fff;
   --secondary-color-2: #cccccc;
+  --secondary-color-3: #bbbbbb;
 
   --border-radius: 20px;
   --animation: all 0.5s ease-in-out;
+  --font-small: clamp(12px, 2vw, 20px);
+  --font-medium: clamp(20px, 3vw, 30px);
+  --font-large: clamp(30px, 5vw, 50px);
   background-color: var(--primary-color-1);
 }
 
@@ -18,5 +24,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 2000px;
+  height: 3000px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }

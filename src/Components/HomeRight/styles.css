@@ -1,0 +1,16 @@
+.home-right h1 {
+  width: fit-content;
+  margin: auto;
+  font-size: var(--font-large);
+  text-align: center;
+
+  text-wrap: wrap;
+}
+
+.home-right p {
+  max-width: 600px;
+  text-wrap: wrap;
+  text-align: center;
+  font-size: var(--font-small);
+  padding: 20px;
+}

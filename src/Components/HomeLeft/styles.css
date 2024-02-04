@@ -1,0 +1,7 @@
+.home-image {
+  background: var(--primary-color-1);
+  width: clamp(250px, 55%, 600px);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 2px solid var(--secondary-color-2);
+}

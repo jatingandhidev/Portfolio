@@ -1,0 +1,42 @@
+.home-container {
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.home-left {
+  height: inherit;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-right {
+  width: 50%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--secondary-color-2);
+}
+
+@media (width<= 968px) {
+  .home-container {
+    flex-direction: column;
+  }
+
+  .home-left {
+    height: 50%;
+    width: 100%;
+    align-items: end;
+  }
+
+  .home-right {
+    height: 50%;
+    width: 100%;
+  }
+}
