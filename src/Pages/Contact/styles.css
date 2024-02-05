@@ -1,0 +1,5 @@
+.contact-container {
+  height: 50vh;
+  background-color: var(--primary-color-2);
+  margin-top: 100px;
+}

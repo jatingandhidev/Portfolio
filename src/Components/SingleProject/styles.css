@@ -1,0 +1,100 @@
+.single-project-container {
+  width: min(100vw, 600px);
+
+  display: flex;
+  align-items: center;
+  margin-top: 2.5rem;
+  flex-direction: column;
+}
+
+.single-project-card {
+  overflow: visible;
+  width: 80%;
+  aspect-ratio: 1;
+}
+
+.single-project-content {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: var(--animation);
+  box-shadow: 0px 0px 10px 1px #000000ee;
+  border-radius: 5px;
+}
+
+.single-project-front,
+.single-project-back {
+  background-color: var(--primary-color-2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.single-project-back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.back-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.single-project-card:hover .single-project-content {
+  transform: rotateY(180deg);
+}
+
+.single-project-front {
+  transform: rotateY(180deg);
+  color: var(--secondary-color-2);
+}
+
+.single-project-front .front-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.front-content .content-title {
+  width: 80%;
+  margin: 20px auto 0;
+  font-size: var(--font-medium);
+  border-bottom: 0.5px solid var(--secondary-color-2);
+}
+
+.front-content .content-description {
+  width: 80%;
+  margin: 0px auto;
+  /* text-align: justify; */
+  flex-wrap: wrap;
+  font-size: var(--font-small);
+  background-color: var(--primary-color-3);
+  box-shadow: 0px 0px 5px 0px #000000ee;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.front-content .action-btn {
+  width: 80%;
+  margin: 0 auto 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.live-site-btn,
+.github-btn {
+  border: 2px solid var(--secondary-color-2);
+  box-shadow: 0px 0px 5px 0px #000000ee;
+  padding: 5px;
+  cursor: pointer;
+}

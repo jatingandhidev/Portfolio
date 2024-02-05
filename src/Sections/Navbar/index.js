@@ -43,7 +43,7 @@ const Navbar = () => {
         <AnchorLink href="#Projects">
           <li>{screenWidth > 600 ? 'Projects' : <FaBriefcase />}</li>
         </AnchorLink>
-        <AnchorLink href="#About">
+        <AnchorLink href="#Contact">
           <li>{screenWidth > 600 ? 'Contact' : <BiSolidContact />}</li>
         </AnchorLink>
       </ul>
