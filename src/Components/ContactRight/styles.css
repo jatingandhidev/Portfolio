@@ -1,0 +1,31 @@
+.contact-content-right {
+  background-color: var(--primary-color-3);
+  width: 100%;
+
+  margin-top: 20px;
+  border-top: 1px solid var(--primary-color-1);
+  border-bottom: 1px solid var(--primary-color-1);
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-around;
+  color: var(--secondary-color-3);
+}
+
+.social-links li {
+  font-size: var(--font-medium);
+  cursor: pointer;
+}
+
+@media (width>=1024px) {
+  .contact-content-right {
+    width: 50%;
+    background-color: transparent;
+    border: none;
+    max-width: 600px;
+  }
+  .social-links {
+    color: var(--secondary-color-2);
+  }
+}

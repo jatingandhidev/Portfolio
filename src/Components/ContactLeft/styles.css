@@ -1,0 +1,36 @@
+.contact-content-left {
+  color: var(--secondary-color-2);
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.left-heading {
+  font-size: var(--font-medium);
+}
+
+.left-content {
+  font-size: var(--font-small);
+  color: var(--primary-color-2);
+  background-color: var(--secondary-color-2);
+  padding: 2px 20px;
+  border-radius: var(--border-radius);
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+@media (width>=1024px) {
+  .contact-content-left {
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+}

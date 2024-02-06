@@ -1,5 +1,44 @@
 .contact-container {
-  height: 50vh;
+  /* height: 30vh; */
   background-color: var(--primary-color-2);
-  margin-top: 100px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-heading {
+  font-size: var(--font-medium);
+  color: var(--secondary-color-2);
+
+  margin: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.contact-heading:after,
+.contact-heading:before {
+  content: ' ';
+  display: block;
+  height: 50%;
+  background-color: transparent;
+  border-bottom: 1px solid var(--secondary-color-2);
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+@media (width>=1024px) {
+  .contact-content {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .contact-heading {
+    grid-template-columns: 2fr 1fr 2fr;
+  }
 }
