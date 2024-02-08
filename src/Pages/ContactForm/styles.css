@@ -1,0 +1,139 @@
+.contact-form-container {
+  color: var(--secondary-color-2);
+}
+
+.go-back-btn {
+  font-size: var(--font-small);
+  color: var(--secondary-color-2);
+  display: block;
+  margin: 15px;
+  display: flex;
+  justify-content: left;
+  gap: 0.5rem;
+  align-items: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.contact-form-header {
+  width: 100%;
+  text-align: center;
+  font-size: var(--font-medium);
+  background-color: var(--primary-color-2);
+  padding: 20px 0;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 50px;
+}
+
+.input-field {
+  position: relative;
+  width: 80%;
+}
+
+.input-field input,
+textarea {
+  width: 100%;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid var(--secondary-color-3);
+  font-size: var(--font-medium);
+  color: var(--secondary-color-3);
+  transition: 0.3s;
+}
+
+.input-field span {
+  position: absolute;
+  transform: translateY(-40px);
+  font-size: var(--font-medium);
+  transition: 0.3s;
+  z-index: -1;
+}
+
+.input-field textarea {
+  min-height: 200px;
+}
+
+.input-field textarea ~ span {
+  transform: translateY(-230px);
+}
+
+.input-field input:valid ~ span,
+.input-field input:focus ~ span {
+  transform: translateY(-55px);
+  font-size: var(--font-small);
+}
+
+.input-field textarea:valid ~ span,
+.input-field textarea:focus ~ span {
+  transform: translateY(-240px);
+  font-size: var(--font-small);
+}
+
+.submit-button {
+  width: 100px;
+  background-color: transparent;
+  border: 1px solid var(--secondary-color-3);
+  color: var(--secondary-color-3);
+  padding: 10px;
+  font-size: var(--font-small);
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-button:hover {
+  scale: 1.1;
+}
+
+@media (width>=1024px) {
+  .contact-form {
+    margin-top: 80px;
+  }
+  .contact-form form {
+    gap: 100px;
+  }
+  .input-field {
+    width: 60%;
+  }
+
+  .input-field span {
+    transform: translateY(-50px);
+  }
+
+  .input-field textarea {
+    min-height: 400px;
+  }
+
+  .input-field textarea ~ span {
+    transform: translateY(-330px);
+  }
+
+  .input-field input:valid ~ span,
+  .input-field input:focus ~ span {
+    transform: translateY(-80px);
+    font-size: var(--font-small);
+  }
+
+  .input-field textarea:valid ~ span,
+  .input-field textarea:focus ~ span {
+    transform: translateY(-460px);
+    font-size: var(--font-small);
+  }
+
+  .submit-button {
+    width: 200px;
+  }
+}
