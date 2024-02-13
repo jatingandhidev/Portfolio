@@ -10,7 +10,7 @@
 .home-right p {
   max-width: 600px;
   text-wrap: wrap;
-  text-align: center;
+  text-align: justify;
   font-size: var(--font-small);
   padding: 20px;
 }

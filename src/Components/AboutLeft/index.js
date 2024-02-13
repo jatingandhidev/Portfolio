@@ -9,14 +9,18 @@ const AboutLeft = () => {
       <div className="about-heading">About Me</div>
       <div className="about-content">
         <div>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde
-          architecto cupiditate omnis suscipit similique. Delectus architecto
-          vel provident labore distinctio asperiores ab commodi, nemo esse illum
-          ex officiis minima, aperiam ducimus sed hic voluptatum reprehenderit.
+          Experienced professional with 3 years at HCL Technologies,
+          specializing in application support and management. Proven expertise
+          in administering critical applications like SAP, BizTalk, and Redwood,
+          coupled with a strong background in monitoring and operational tasks.
         </div>
         <div>
-          Atque necessitatibus, commodi, ipsam, voluptates asperiores voluptas
-          eaque totam alias quo et sed harum ipsum?
+          Transitioned to the Application Management Team, where I handled both
+          operational duties and minor development requests, gaining proficiency
+          in maintaining and enhancing software systems. Seeking a full-stack
+          role, equipped with skills in React, Node.js, and MongoDB, to leverage
+          my diverse experience and contribute effectively to organizational
+          success.
         </div>
       </div>
 

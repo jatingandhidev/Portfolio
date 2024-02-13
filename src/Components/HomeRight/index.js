@@ -3,12 +3,11 @@ import './styles.css'
 const HomeRight = () => {
   return (
     <div>
-      <h1>Hey, I'm Lorem ipsum</h1>
+      <h1>Hey, I'm Jatin Gandhi</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus,
-        esse deleniti laudantium blanditiis nostrum aliquid molestiae
-        voluptatibus, asperiores obcaecati doloribus ipsam ad? Alias dolor
-        impedit deserunt illum voluptates? Cum, similique!
+        A FullStack Developer experienced in React, Node.js, and MongoDB. With 3
+        years at HCL Technologies, I've worked in application support and
+        management. Let's build something great together!
       </p>
     </div>
   )
