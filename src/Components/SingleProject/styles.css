@@ -91,6 +91,10 @@
   justify-content: space-between;
 }
 
+.action-btn a {
+  color: var(--secondary-color-2);
+}
+
 .live-site-btn,
 .github-btn {
   border: 2px solid var(--secondary-color-2);

@@ -18,6 +18,10 @@
   cursor: pointer;
 }
 
+.social-links li a {
+  color: var(--secondary-color-3);
+}
+
 @media (width>=1024px) {
   .contact-content-right {
     width: 50%;

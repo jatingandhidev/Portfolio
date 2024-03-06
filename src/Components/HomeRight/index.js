@@ -1,13 +1,18 @@
 import './styles.css'
+import { useContext } from 'react'
+import { DataContext } from '../../SharedLayout'
+
+const useDataContext = () => useContext(DataContext)
 
 const HomeRight = () => {
+  const data = useDataContext()
+
   return (
     <div>
-      <h1>Hey, I'm Jatin Gandhi</h1>
+      <h1>Hey, I'm {data?.sanitizedHomeEntries?.[0].name || 'Jatin Gandhi'}</h1>
       <p>
-        A FullStack Developer experienced in React, Node.js, and MongoDB. With 3
-        years at HCL Technologies, I've worked in application support and
-        management. Let's build something great together!
+        {data?.sanitizedHomeEntries?.[0].intro ||
+          "FullStack Web Developer with 2 years of experience. Currently working as Software Engineer at HCL Tech, where my role in Application Management. Let's build something great together!"}
       </p>
     </div>
   )

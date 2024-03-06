@@ -9,18 +9,22 @@ const AboutLeft = () => {
       <div className="about-heading">About Me</div>
       <div className="about-content">
         <div>
-          Experienced professional with 3 years at HCL Technologies,
-          specializing in application support and management. Proven expertise
-          in administering critical applications like SAP, BizTalk, and Redwood,
-          coupled with a strong background in monitoring and operational tasks.
+          I'm Jatin, 22 year old self taught fullstack web developer with 2
+          years of experience. I specialize in building websites with
+          user-friendly frontend and well optimized backend using React.js and
+          Node.js.
         </div>
         <div>
-          Transitioned to the Application Management Team, where I handled both
-          operational duties and minor development requests, gaining proficiency
-          in maintaining and enhancing software systems. Seeking a full-stack
-          role, equipped with skills in React, Node.js, and MongoDB, to leverage
-          my diverse experience and contribute effectively to organizational
-          success.
+          I'm also a part of a WILP with HCL Tech. As experienced software
+          engineer my role includes operational work and handling development
+          requests.
+        </div>
+        <div>
+          When I'm not working, I love kicking back and getting into web series
+          and anime. Gaming is also a big part of my downtime – there's nothing
+          like diving into a good game. And to balance it all out, I enjoy
+          staying active with workouts and playing sports like football. This
+          helps me keep my head clear while I am working.
         </div>
       </div>
 

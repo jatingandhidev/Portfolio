@@ -1,6 +1,5 @@
 .home-right h1 {
   width: fit-content;
-  margin: auto;
   font-size: var(--font-large);
   text-align: center;
 
@@ -10,7 +9,15 @@
 .home-right p {
   max-width: 600px;
   text-wrap: wrap;
-  text-align: justify;
   font-size: var(--font-small);
-  padding: 20px;
+}
+
+@media (width<=600px) {
+  .home-right h1 {
+    margin: auto;
+  }
+
+  .home-right p {
+    padding: 20px;
+  }
 }
