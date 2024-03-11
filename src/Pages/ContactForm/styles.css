@@ -46,9 +46,11 @@ textarea {
   border: none;
   background: transparent;
   border-bottom: 2px solid var(--secondary-color-3);
-  font-size: var(--font-medium);
+  /* font-size: var(--font-medium); */
+  font-size: var(--font-form);
   color: var(--secondary-color-3);
   transition: 0.3s;
+  padding: 0.25rem 0.5rem;
 }
 
 .input-field span {
@@ -69,13 +71,13 @@ textarea {
 
 .input-field input:valid ~ span,
 .input-field input:focus ~ span {
-  transform: translateY(-55px);
+  transform: translateY(-65px);
   font-size: var(--font-small);
 }
 
 .input-field textarea:valid ~ span,
 .input-field textarea:focus ~ span {
-  transform: translateY(-240px);
+  transform: translateY(-250px);
   font-size: var(--font-small);
 }
 
@@ -90,6 +92,7 @@ textarea {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
+  margin-bottom: 20px;
 }
 
 .submit-button:hover {

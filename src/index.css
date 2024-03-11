@@ -12,6 +12,7 @@
   --font-small: clamp(12px, 2vw, 20px);
   --font-medium: clamp(20px, 3vw, 30px);
   --font-large: clamp(30px, 5vw, 50px);
+  --font-form: clamp(15px, 2vw, 30px);
   background-color: var(--primary-color-1);
 }
 
@@ -24,6 +25,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+textarea {
+  resize: none;
 }
 
 a {

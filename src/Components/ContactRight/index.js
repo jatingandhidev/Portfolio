@@ -13,22 +13,28 @@ const ContactRight = () => {
     <div className="contact-content-right">
       <ul className="social-links">
         <li>
-          <Link to={`mailto:${data?.sanitizedContactEntries?.[0].gmail}`}>
+          <Link
+            to={`mailto:${data?.sanitizedContactEntries?.[0].gmail}`}
+            target="_blank"
+          >
             <SiGmail />
           </Link>
         </li>
         <li>
-          <Link to={data?.sanitizedContactEntries?.[0].linkedin}>
+          <Link
+            to={data?.sanitizedContactEntries?.[0].linkedin}
+            target="_blank"
+          >
             <FaLinkedin />
           </Link>
         </li>
         <li>
-          <Link to={data?.sanitizedContactEntries?.[0].github}>
+          <Link to={data?.sanitizedContactEntries?.[0].github} target="_blank">
             <FaGithub />
           </Link>
         </li>
         <li>
-          <Link to={data?.sanitizedContactEntries?.[0].twitter}>
+          <Link to={data?.sanitizedContactEntries?.[0].twitter} target="_blank">
             <FaTwitter />
           </Link>
         </li>

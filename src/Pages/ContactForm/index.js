@@ -8,7 +8,7 @@ const ContactForm = () => {
   const navigate = useNavigate()
 
   if (state.succeeded) {
-    navigate('/')
+    navigate('/form-submitted')
   }
 
   return (

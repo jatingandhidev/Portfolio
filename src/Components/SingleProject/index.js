@@ -15,10 +15,10 @@ const SingleProject = ({ project }) => {
               <div className="content-title">{name}</div>
               <div className="content-description">{description}</div>
               <div className="action-btn">
-                <Link to={siteLink}>
+                <Link to={siteLink} target="_blank">
                   <div className="live-site-btn">Live site</div>
                 </Link>
-                <Link to={githubLink}>
+                <Link to={githubLink} target="_blank">
                   <div className="github-btn">Github</div>
                 </Link>
               </div>
