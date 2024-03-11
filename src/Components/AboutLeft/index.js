@@ -31,22 +31,22 @@ const AboutLeft = () => {
       <div className="tech-stack-heading">Tech stack</div>
       <ul className="tech-stack-list">
         <li>
-          <FaHtml5 />
+          <FaHtml5 title="HTML5" />
         </li>
         <li>
-          <FaCss3Alt />
+          <FaCss3Alt title="CSS3" />
         </li>
         <li>
-          <IoLogoJavascript />
+          <IoLogoJavascript title="JavaScript" />
         </li>
         <li>
-          <FaReact />
+          <FaReact title="React" />
         </li>
         <li>
-          <FaNode />
+          <FaNode title="Node.js" />
         </li>
         <li>
-          <SiMongodb />
+          <SiMongodb title="MongoDB" />
         </li>
       </ul>
     </div>
