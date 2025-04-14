@@ -9,15 +9,16 @@ const AboutLeft = () => {
       <div className="about-heading">About Me</div>
       <div className="about-content">
         <div>
-          I'm Jatin, 22 year old self taught fullstack web developer with 2
-          years of experience. I specialize in building websites with
+          I'm Jatin, 23 year old self taught fullstack web developer with more
+          than 3 years of experience. I specialize in building websites with
           user-friendly frontend and well optimized backend using React.js and
           Node.js.
         </div>
         <div>
-          I'm also a part of a WILP with HCL Tech. As experienced software
-          engineer my role includes operational work and handling development
-          requests.
+          I'm also a part of a Work Integrated learning program with HCL Tech.
+          As experienced software engineer my role includes web application
+          development, job automation, and performance optimization using
+          technologies like React.js, Redwood, and ISIS Papyrus.
         </div>
         <div>
           When I'm not working, I love kicking back and getting into web series
